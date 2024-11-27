@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3159571503962335616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3159571503962335743}
+  - component: {fileID: 3159571503962335742}
+  - component: {fileID: 3159571503962335741}
+  m_Layer: 0
+  m_Name: DJump
+  m_TagString: Pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3159571503962335743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159571503962335616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.783, y: 1.277, z: -22.726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3158726123325616408}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3159571503962335742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159571503962335616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d222cafe710cec4c87dfa6a3afe5950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipMessage: The <b>Double Jump</b> Powerup! Press <b>SPACE</b> twice to use it,
+    combine it with dash to defeat enemies and solve puzzles!
+  indicator: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 7375e91436e27384bbaeb47a99f5ce7b, type: 3}
+--- !u!135 &3159571503962335741
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159571503962335616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &3159571502246177054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3159571503962335743}
+    m_Modifications:
+    - target: {fileID: 1756554108494932, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_Name
+      value: DJumpPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+--- !u!4 &3158726123325616408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4223391167240198, guid: a393de3d0766aac41bacf4ed4b7b641f, type: 3}
+  m_PrefabInstance: {fileID: 3159571502246177054}
+  m_PrefabAsset: {fileID: 0}
