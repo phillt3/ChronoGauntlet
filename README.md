@@ -6,7 +6,7 @@
 
 ## **Additional Links**
 - [GAMEPLAY](https://youtu.be/FIZQxf9K6eU?si=6D5dm5hilDpvnqp_)
-- **Overview**: TBA
+- [OVERVIEW](https://www.youtube.com/watch?v=Sq9cn3xbW8Q)
 
 ## **About the Game**
 **Chrono Gauntlet** is an action game where players must navigate through dangerous arenas, solve puzzles, and defeat enemies to save the fabric of time. Explore beautifully rendered environments, acquire new abilities, and face off against powerful foes!
